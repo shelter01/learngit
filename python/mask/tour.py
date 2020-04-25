@@ -1,24 +1,20 @@
 import random
+import math
 
 def tour(chro,pour_size,tour_size):
     pop = len(chro)
-    V = (len(chro[0]))
-    rank = V-2
-    dis = V-1
+    rank = 747
+    dis = 748
     candi = [0,0]
     c_rank = [0,0]
     c_dis = [0,0]
     res = []
     for i in range(pour_size):
         for j in range(tour_size):
-            candi[j] = round((pop-1)*random.random())
-            if(candi[j]==0):
-                candi[j]=1
+            candi[j] = math.floor(pop*random.random())
             if(j>0):
                 while(candi[j]==candi[j-1]):
-                    candi[j] = round(pop*random.random())
-                    if(candi[j]==0):
-                        candi[j]=1
+                    candi[j] = math.floor(pop*random.random())
         for j in range(tour_size):
             c_rank[j] = chro[candi[j]][rank]
             c_dis[j] = chro[candi[j]][dis]

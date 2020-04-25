@@ -3,7 +3,7 @@ import numpy as np
 
 def eva(chro,V,dis):
     P = len(dis[0])
-    parkMax = round(V/P/0.75)
+    parkMax = round(V/P/0.9)
     parkAvg = V/P
     park = np.zeros(P).tolist()
     train = np.zeros(V).tolist()
@@ -34,4 +34,6 @@ def eva(chro,V,dis):
     chro.append(sumAvg)
     
     train.append(disSum+sumAvg)
+    train.append(disSum)
+    train.append(sumAvg)
     return train

@@ -1,0 +1,250 @@
+body,
+html {
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    list-style: none;
+}
+
+.w {
+    width: 1600px;
+}
+
+.bac1 {
+    position: relative;
+    height: 990px;
+    overflow: hidden;
+}
+
+.bac1x {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 1600px;
+    height: 990px;
+}
+
+.tit1 {
+    height: 300px;
+    font-size: 24px;
+    text-align: center;
+}
+
+.tit1 h1 {
+    font-weight: 400;
+}
+
+.sm {
+    font-size: 14px;
+}
+
+.banner {
+    width: 1000px;
+    height: 410px;
+    padding: 0px 250px 0px 350px;
+}
+
+.banner .im {
+    float: left;
+    width: 400px;
+    padding-left: 60px;
+    margin: 0px 0px 50px 40px;
+}
+
+.banner .im1 {
+    background: no-repeat url(../images/IphoneIcon.png) left 30px;
+}
+
+.banner .im2 {
+    background: no-repeat url(../images/CheckIcon.png) left 30px;
+}
+
+.banner .im3 {
+    background: no-repeat url(../images/PencilIcon.png) left 30px;
+}
+
+.banner .im4 {
+    background: no-repeat url(../images/SettingsIcon.png) left 30px;
+}
+
+.bac2 {
+    position: relative;
+    height: 800px;
+    overflow: hidden;
+}
+
+.bac2x {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 1600px;
+    height: 800px;
+}
+
+.ts {
+    width: 960px;
+    height: 650px;
+    margin: 0 320px;
+}
+
+.ts h3 {
+    height: 200px;
+    text-align: center;
+    line-height: 200px;
+    font-size: 30px;
+}
+
+.ts li {
+    float: left;
+    width: 300px;
+    text-align: center;
+    padding: 0 10px;
+}
+
+ul {
+    padding: 0;
+}
+
+.ts h4 {
+    font-weight: 200;
+}
+
+.pic {
+    width: 990px;
+    height: 780px;
+    margin: 0 305px;
+}
+
+.pic .pic1 {
+    position: relative;
+}
+
+.pic1 img {
+    float: left;
+    width: 570px;
+    height: 350px;
+}
+
+.pic1 h4 {
+    position: absolute;
+    right: 0;
+    top: 200px;
+    width: 320px;
+    font-weight: 100;
+}
+
+.pic .pic2 {
+    position: relative;
+    clear: both;
+    padding-top: 70px;
+}
+
+.pic2 img {
+    float: right;
+    height: 350px;
+}
+
+.pic2 h4 {
+    position: absolute;
+    left: 100px;
+    top: 200px;
+    width: 320px;
+    font-weight: 100;
+}
+
+.st {
+    width: 960px;
+    margin: 0 320px;
+}
+
+.st h3 {
+    height: 200px;
+    text-align: center;
+    line-height: 200px;
+    font-size: 30px;
+}
+
+.st h4 {
+    text-align: center;
+    font-size: 20px;
+    font-weight: 200;
+}
+
+.st li {
+    float: left;
+    margin: 10px;
+}
+
+.st img {
+    width: 460px;
+    height: 370px;
+}
+
+.bac3 {
+    position: relative;
+}
+
+.bac3x {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 460px;
+    height: 370px;
+}
+
+.ipt {
+    clear: both;
+    width: 960px;
+    margin: 0 320px;
+    text-align: center;
+    padding-top: 100px;
+}
+
+.ipt .lf,
+.ipt .rg {
+    float: left;
+    width: 50%;
+}
+
+.ipt input {
+    display: block;
+    color: slategrey;
+    width: 370px;
+    height: 50px;
+    margin: 15px 38px;
+}
+
+.rg {
+    text-align: left;
+}
+
+.rg h2 {
+    font-weight: 400;
+    padding: 0 50px;
+}
+
+.rg h4 {
+    padding: 0 50px;
+}
+
+.rg h5 {
+    padding: 0 80px;
+}
+
+.add {
+    background: url(../images/MapIcon.png) no-repeat 50px 5px;
+}
+
+.rg .tel {
+    background: url(../images/PhoneIcon.png) no-repeat 50px 3px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.rg .mal {
+    background: url(../images/MailIcon.png) no-repeat 50px 3px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
