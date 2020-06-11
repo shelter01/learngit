@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+        li {
+            font: 22px/30px "simsun";
+            cursor: pointer;
+            margin: 5px;
+            list-style: none;
+        }
+    </style>
+    <script src="jquery-1.11.1.js"></script>
+</head>
+
+<body>
+    <ul>
+        <li>以色侍人，色衰而爱驰也;以才侍人，才进得久，互赏而终...</li>
+        <li>以色侍人，色衰而爱驰也;以才侍人，才进得久，互赏而终...</li>
+        <li>以色侍人，色衰而爱驰也;以才侍人，才进得久，互赏而终...</li>
+        <li>以色侍人，色衰而爱驰也;以才侍人，才进得久，互赏而终...</li>
+        <li>以色侍人，色衰而爱驰也;以才侍人，才进得久，互赏而终...</li>
+        <li>以色侍人，色衰而爱驰也;以才侍人，才进得久，互赏而终...</li>
+        <li>以色侍人，色衰而爱驰也;以才侍人，才进得久，互赏而终...</li>
+        <li>以色侍人，色衰而爱驰也;以才侍人，才进得久，互赏而终...</li>
+        <li>以色侍人，色衰而爱驰也;以才侍人，才进得久，互赏而终...</li>
+        <li>以色侍人，色衰而爱驰也;以才侍人，才进得久，互赏而终...</li>
+        <li>以色侍人，色衰而爱驰也;以才侍人，才进得久，互赏而终...</li>
+        <li>以色侍人，色衰而爱驰也;以才侍人，才进得久，互赏而终...</li>
+    </ul>
+    <script>
+        $(function() {
+            $("li:odd").css("backgroundColor", "blue");
+            $("li:even").css("backgroundColor", "grey");
+            $("ul li").mouseover(function() {
+                $("li:odd").css("backgroundColor", "blue");
+                $("li:even").css("backgroundColor", "grey");
+                $(this).css("backgroundColor", "red");
+            });
+        });
+    </script>
+</body>
+
+</html>

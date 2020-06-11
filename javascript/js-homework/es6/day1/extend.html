@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="jquery-1.11.1.js"></script>
+    <script>
+        class parent {
+            constructor(money, car, house, company) {
+                this.money = money;
+                this.car = car;
+                this.house = house;
+                this.company = company;
+            }
+            manage() {
+                console.log(this.money + this.car + this.house + this.company);
+            }
+        }
+        class children extends parent {
+            constructor(money, car, house, company) {
+                super(money, car, house, company);
+            }
+        }
+        var stu = new children(10000, "benchi", "bieshu", "500qiang");
+        stu.manage();
+    </script>
+</head>
+
+<body>
+
+</body>
+
+</html>

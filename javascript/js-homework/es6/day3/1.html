@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        function getRandom() {
+            // 将当前生成的随机数 放在一个函数中当返回值,延长当前生成随机数的作用范围
+            var num = parseInt(Math.random() * 10) + 1;
+            console.log(num);
+            return function() {
+                return num;
+            }
+        }
+        //相当于拿到了内部函数的钥匙
+        var fn = getRandom();
+        //只是调用了内部function函数，没有触发getrandom所以num不会重复执行
+        console.log(fn());
+        console.log(fn());
+        console.log(fn());
+        console.log(fn());
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>6-4</title>
+</head>
+
+<body>
+    <script>
+        var str = "abaasdffggghhjjkkgfddsssss3444343";
+        console.log(str.length);
+        console.log(str.charAt(4));
+        console.log(str.indexOf("b"));
+        console.log(str.slice(1, 5));
+        var json = {};
+        for (var i = 0; i < str.length; i++) {
+            if (json[str.charAt(i)]) {
+                json[str.charAt(i)]++;
+            } else {
+                json[str.charAt(i)] = 1;
+            }
+        }
+        var max = 0;
+        var index = "";
+        for (const key in json) {
+            if (json[key] > max) {
+                index = key;
+                max = json[key];
+            }
+        }
+        console.log(index);
+    </script>
+</body>
+
+</html>

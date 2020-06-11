@@ -47,21 +47,22 @@ def nond(chro,M,V):
         front[0] = front[0]+1
         front[1] = q
     #按某一列排序
-    chro = sorted(chro, key=lambda s: s[747])
+    print(1)
+    chro = sorted(chro, key=lambda s: s[V+2])
     
     z = []
     #遍历pareto等级
-    for i in range(chro[len(chro)-1][747]):
+    for i in range(chro[len(chro)-1][V+2]):
         dis = 0
         y = []
         #存同一层目标函数合集
         obj = [[],[]]
         #y[i]存同一等级的个体
         for j in range(len(chro)):
-            if(chro[j][747]==i+1):
+            if(chro[j][V+2]==i+1):
                 y.append(chro[j])
-                obj[0].append(chro[j][745])
-                obj[1].append(chro[j][746])
+                obj[0].append(chro[j][V])
+                obj[1].append(chro[j][V+1])
         for k in range(M):
             index = np.argsort(obj[k])
             cow = sorted(y, key=lambda s: s[V+k])

@@ -1,0 +1,174 @@
+.banner {
+    width: 981px;
+    height: 456px;
+    margin: 8px 0 0 220px;
+}
+
+.banner_l {
+    float: left;
+}
+
+.banner_r {
+    float: left;
+    width: 250px;
+    height: 455px;
+    margin-left: 8px;
+}
+
+.bh_t {
+    position: relative;
+    height: 25px;
+    font-size: 14px;
+    padding: 5px 15px;
+    color: #6E6E6E;
+    border: 1px dotted #E8E8E7;
+}
+
+.bh_t p {
+    position: absolute;
+    top: 5px;
+    right: 20px;
+    font-size: 12px;
+}
+
+.bh_b {
+    padding-top: 3px;
+    padding-left: 15px;
+    line-height: 22px;
+}
+
+.bh_b span {
+    font-weight: 800;
+}
+
+.ban_bh {
+    height: 163px;
+}
+
+.ban_bm {
+    height: 215px;
+    border-top: 1px solid #E4E4E4;
+    padding-top: 1px;
+    overflow: hidden;
+}
+
+.ban_li ul {
+    width: 260px;
+}
+
+.ban_li li {
+    float: left;
+    width: 63px;
+    height: 70px;
+    text-align: center;
+    line-height: 105px;
+    border-right: 1px solid #E4E4E4;
+    border-bottom: 1px solid #E4E4E4;
+}
+
+.ban_li img {
+    position: absolute;
+    top: 0;
+    left: 51px;
+    width: 12px;
+    height: 15px;
+}
+
+.ban_li li:first-child {
+    background: url(../images/icons.png) 3px -5px no-repeat;
+}
+
+.ban_li li:nth-child(2) {
+    position: relative;
+    background: url(../images/icons.png) -60px -5px no-repeat;
+}
+
+.ban_li li:nth-child(3) {
+    background: url(../images/icons.png) -122px -5px no-repeat;
+}
+
+.ban_li li:nth-child(4) {
+    background: url(../images/icons.png) -187px -5px no-repeat;
+}
+
+.ban_li li:nth-child(5) {
+    background: url(../images/icons.png) 3px -75px no-repeat;
+}
+
+.ban_li li:nth-child(6) {
+    background: url(../images/icons.png) -60px -75px no-repeat;
+}
+
+.ban_li li:nth-child(7) {
+    background: url(../images/icons.png) -122px -75px no-repeat;
+}
+
+.ban_li li:nth-child(8) {
+    background: url(../images/icons.png) -187px -75px no-repeat;
+}
+
+.ban_li li:nth-child(9) {
+    background: url(../images/icons.png) 3px -145px no-repeat;
+}
+
+.ban_li li:nth-child(10) {
+    background: url(../images/icons.png) -60px -145px no-repeat;
+}
+
+.ban_li li:nth-child(11) {
+    background: url(../images/icons.png) -122px -140px no-repeat;
+}
+
+.ban_li li:nth-child(12) {
+    background: url(../images/icons.png) -187px -145px no-repeat;
+}
+
+.mid {
+    height: 164px;
+    margin: 10px 0;
+}
+
+.mid .mid_l {
+    float: left;
+    position: relative;
+    width: 206px;
+    height: 164px;
+    background-color: #5C5251;
+    color: #fff;
+    text-align: center;
+    font-size: 18px;
+    line-height: 210px;
+}
+
+.mid .mid_l img {
+    position: absolute;
+    top: 31px;
+    left: 75px;
+}
+
+.mid .mid_r {
+    float: left;
+    width: 994px;
+    height: 164px;
+    overflow: hidden;
+}
+
+.mid_r ul {
+    width: 1000px;
+}
+
+.mid_r li {
+    float: left;
+    width: 248px;
+    border-right: 1px solid #E4E4E4;
+}
+
+.mid_r img {
+    width: 248px;
+    height: 164px;
+}
+
+.jia {
+    height: 500px;
+    background-color: aquamarine;
+}

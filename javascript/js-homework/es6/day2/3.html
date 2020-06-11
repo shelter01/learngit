@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        function Father(money, cars, house, company) {
+            this.money = money;
+            this.cars = cars;
+            this.house = house;
+            this.company = company;
+        }
+        Father.prototype.manager = function() {
+            console.log(this.cars);
+        }
+
+        function Son(money, cars, house, company) {
+            Father.call(this, money, cars, house, company);
+        }
+
+        Son.prototype = new Father();
+        Son.prototype.constructer = Son;
+
+        var stu = new Son(1000, "dongfeng", "big", "huge");
+        console.log(stu);
+
+        stu.manager();
+    </script>
+</body>
+
+</html>
